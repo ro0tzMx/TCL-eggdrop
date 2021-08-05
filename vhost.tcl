@@ -1,5 +1,5 @@
-set operid "d3v"
-set operpass "avaava2010"
+set operid "xxx"
+set operpass "xxxx"
 
 set badwords { *<censored>* *service* *dalechat* *chatzona* *netadmin* *administrador* *administrator* *puntochat* *services* *digitalsands* *g0v* *admin* *fark* *fag* *!@#$* *suck* *shoot* *asshole* *zub* *bitch* *cock* *@#$* *whore* *slut* *fartknocker* *ass* *bastard* *black* *pussy* *dickhead* *nigga* *piss* *maricon* *shoot* *prick* *sucks* *dicks* *pricks* *.htm* *www.* *#* *channel* *sex* *ass* *trick* *fuk* *azz* *hail* *hitler* *gov* *mil* *cyberarmy* *cia* *fbi* *nsa* *dod* *undernet.org* *oper* }
  
