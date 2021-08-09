@@ -50,13 +50,13 @@
         # Set the website where from where information will be take from (without http://)
         # You can download the "youtube php source" from tclscripts.net if you want different website
         ###
-        set ytitle(website_url) "blablachat.org"
+        set ytitle(website_url) "domaine"
          
         ###
         #  If you put the files in a subdirectory of the  website (rather then directy in public_html or www) please specify here the directory
         #  if not, leave here ""
         ###
-        set ytitle(website_subdirectory) "dev"
+        set ytitle(website_subdirectory) "folder_name"
          
         ###
         # YOUTUBE SEARCH COMMAND
