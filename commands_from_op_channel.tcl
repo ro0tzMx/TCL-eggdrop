@@ -1,5 +1,5 @@
 #canal donde funcionará los comandos
-set Channel "#canal_ops"
+set Channel "#operadores_canales"
 
 # seccion o ruta donde leera el archivo del contador
 set swearkicks "swearkicks.dat"
@@ -17,10 +17,10 @@ if {(![file exists $swearkicks])} { set file [open $swearkicks "w"]; puts $file 
 set file [open $swearkicks "r"]; set currentkicks [gets $file]; close $file; set totalkicks [expr $currentkicks];
 set ban [lindex $text 0]
 set mask *!*@[lindex [split [getchanhost $ban] @] 1]
-putquick "MODE #gay +b $mask"
-putquick "kick #gay $text :1\[Manual\] Incumplimiento de las Normas del Canal. \[$totalkicks\]"
-putquick "PRIVMSG #gay_ops : 1(4KICKBAN1) 4NiCK1 $text 14- 4IP1 $mask"
-} else { putquick "PRIVMSG #gay_ops : 4ERROR1 Syntaxis Incorrecta: !kb <nick>" }
+putquick "MODE #amistad +b $mask"
+putquick "kick #amistad $text :1\[Manual\] Incumplimiento de las Normas del Canal. \[$totalkicks\]"
+putquick "PRIVMSG #operadores_canales : 1(4KICKBAN1) 4NiCK1 $text 14- 4IP1 $mask"
+} else { putquick "PRIVMSG #operadores_canales : 4ERROR1 Syntaxis Incorrecta: !kb <nick>" }
 }
 
 bind pub ABCn|ABCn !kbmenor proc_bakbmenor
@@ -33,10 +33,10 @@ if {(![file exists $swearkicks])} { set file [open $swearkicks "w"]; puts $file 
 set file [open $swearkicks "r"]; set currentkicks [gets $file]; close $file; set totalkicks [expr $currentkicks];
 set ban [lindex $text 0]
 set mask *!*@[lindex [split [getchanhost $ban] @] 1]
-putquick "MODE #gay +b $mask"
-putquick "kick #gay $text :1\[4MENORES\] No se Permite la Busqueda ni Entrada de Menores de Edad \[$totalkicks\]"
-putquick "PRIVMSG #gay_ops : 1(4T.Menores1) 4NiCK1 $text 14- 4IP1 $mask"
-} else { putquick "PRIVMSG #gay_ops : 4ERROR1 Syntaxis Incorrecta: !kbmenor <nick>" }
+putquick "MODE #amistad +b $mask"
+putquick "kick #amistad $text :1\[4MENORES\] No se Permite la Busqueda ni Entrada de Menores de Edad \[$totalkicks\]"
+putquick "PRIVMSG #operadores_canales : 1(4T.Menores1) 4NiCK1 $text 14- 4IP1 $mask"
+} else { putquick "PRIVMSG #operadores_canales : 4ERROR1 Syntaxis Incorrecta: !kbmenor <nick>" }
 }
 
 bind pub ABCn|ABCn !kbdrogas proc_bakbdrogas
@@ -49,10 +49,10 @@ if {(![file exists $swearkicks])} { set file [open $swearkicks "w"]; puts $file 
 set file [open $swearkicks "r"]; set currentkicks [gets $file]; close $file; set totalkicks [expr $currentkicks];
 set ban [lindex $text 0]
 set mask *!*@[lindex [split [getchanhost $ban] @] 1]
-putquick "MODE #gay +b $mask"
-putquick "kick #gay $text :1\[4ILEGAL\] No se Permiten Sustancias Ilegales en el Canal. \[$totalkicks\]"
-putquick "PRIVMSG #gay_ops : 1(4T.Drogas1) 4NiCK1 $text 14- 4IP1 $mask"
-} else { putquick "PRIVMSG #gay_ops : 4ERROR1 Syntaxis Incorrecta: !kbdrogas <nick>" }
+putquick "MODE #amistad +b $mask"
+putquick "kick #amistad $text :1\[4ILEGAL\] No se Permiten Sustancias Ilegales en el Canal. \[$totalkicks\]"
+putquick "PRIVMSG #operadores_canales : 1(4T.Drogas1) 4NiCK1 $text 14- 4IP1 $mask"
+} else { putquick "PRIVMSG #operadores_canales : 4ERROR1 Syntaxis Incorrecta: !kbdrogas <nick>" }
 }
 
 bind pub ABCn|ABCn !kbact proc_bakbact
@@ -65,10 +65,10 @@ if {(![file exists $swearkicks])} { set file [open $swearkicks "w"]; puts $file 
 set file [open $swearkicks "r"]; set currentkicks [gets $file]; close $file; set totalkicks [expr $currentkicks];
 set ban [lindex $text 0]
 set mask *!*@[lindex [split [getchanhost $ban] @] 1]
-putquick "MODE #gay +b $mask"
-putquick "kick #gay $text :1\[4No Permitido\] Actividades No Permitidas en el canal \[$totalkicks\]"
-putquick "PRIVMSG #gay_ops : 1(4No Permitido1) 4NiCK1 $text 14- 4IP1 $mask"
-} else { putquick "PRIVMSG #gay_ops : 4ERROR1 Syntaxis Incorrecta: !kbact <nick>" }
+putquick "MODE #amistad +b $mask"
+putquick "kick #amistad $text :1\[4No Permitido\] Actividades No Permitidas en el canal \[$totalkicks\]"
+putquick "PRIVMSG #operadores_canales : 1(4No Permitido1) 4NiCK1 $text 14- 4IP1 $mask"
+} else { putquick "PRIVMSG #operadores_canales : 4ERROR1 Syntaxis Incorrecta: !kbact <nick>" }
 }
 
 
