@@ -1,5 +1,5 @@
 #######################################################################################################
-## BlackRadio 1.2 - Shoutcast Edition (09/12/2020) 				Copyright 2008 - 2020 @ WwW.TCLScripts.NET ##
+## BlackRadio 1.2 - Shoutcast Edition (09/12/2020) 	  Copyright 2008 - 2020 @ WwW.TCLScripts.NET ##
 ##                        _   _   _   _   _   _   _   _   _   _   _   _   _   _                      ##
 ##                       / \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \                     ##
 ##                      ( T | C | L | S | C | R | I | P | T | S | . | N | E | T )                    ##
@@ -10,11 +10,11 @@
 ##                                              PRESENTS                                             ##
 ##									                          																									   ® ##
 ###########################################  BLACK RADIO TCL   ########################################
-####################                       	SHOUTCAST EDITION 						    #########################
+####################                       	SHOUTCAST EDITION 	      #########################
 ##  DESCRIPTION: 						 	                            																					 ##
-##  Simple & easy to use script for Shoutcast servers.       							                           ##
+##  Simple & easy to use script for Shoutcast servers.       				             ##
 ##									                             																										 ##
-##  Supports ONLY SHOUTCAST servers.                                                         			   ##
+##  Supports ONLY SHOUTCAST servers.                                                                 ##
 ##									                             																										 ##
 ##  Tested on Eggdrop v1.8.3 (Debian Linux 3.16.0-4-amd64) Tcl version: 8.6.6                        ##
 ##									                             																										 ##
@@ -25,8 +25,8 @@
 ##                                 \===============================/                                 ##
 ##									                             																										 ##
 #######################################################################################################
-##									                                                                                 ##
-##  INSTALLATION: 							                                                                     ##
+##									                             ##
+##  INSTALLATION: 							                             ##
 ##     ++ http package is REQUIRED for this script to work.                                          ##
 ##     ++ Edit the BlackRadio.tcl script and place it into your /scripts directory,                  ##
 ##     ++ add "source scripts/BlackRadio.tcl" to your eggdrop config and rehash the bot.             ##
@@ -55,25 +55,25 @@
 ##									                             																										 ##
 ##  Commands:                                                                                        ##
 ##								                                    																							 ##
-##  Enable: .chanset +blackradio | from BlackTools: .set #chan +blackradio              	           ##
+##  Enable: .chanset +blackradio | from BlackTools: .set #chan +blackradio              	     ##
 ##									                             																								  	 ##
-##  !radio (show current song) | !radio uptime (show radio uptime)									                 ##
+##  !radio (show current song) | !radio uptime (show radio uptime)	                             ##
 ##									                       																										       ##
-##  !dj add <nick> | list | del <nick>/<hand> | on | off | top [total] (top shoutcast time and votes)##                                          ##
+##  !dj add <nick> | list | del <nick>/<hand> | on | off | top [total] (top shoutcast time and votes)## ##
 ##									                            																										 ##
 ##  !like (if you like a song)| list (for admin flags or dj)																				 ##
 ##																																																	 ##
 ##  !dislike (if you dont like a song) | list (for admin flags or dj)			    											 ##
 ##																																																	 ##
-##  !vote (vote for the current DJ) | list (for admin flags) | reset (for admin flags)							 ##
+##  !vote (vote for the current DJ) | list (for admin flags) | reset (for admin flags)	             ##
 ##									                           																											 ##
-##  !request <your message to the dj> (when DJ is online)                                       	   ##
+##  !request <your message to the dj> (when DJ is online)                                            ##
 ##									                                                                                 ##
 ##  Automatic TOPIC setup on backup/dj: set +radiotopic                                              ##
 ##																																																	 ##
 ##	Script works on multiple channels for showing song or listeners																	 ##
 ##									                            																										 ##
-##  ONLY SHOUTCAST servers are supported. 	                                                         ##
+##  ONLY SHOUTCAST servers are supported. 	                                                     ##
 ##									                             																										 ##
 #######################################################################################################
 ##									                            																										 ##
